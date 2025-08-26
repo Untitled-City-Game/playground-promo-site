@@ -1,10 +1,8 @@
 ---
-title: "Markdown example"
-description:
-  'Foto de <a class="underline" href="https://unsplash.com/es/@adrigeo_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrianna Geo</a> en <a href="https://unsplash.com/es/fotos/una-pintura-en-el-techo-de-un-edificio-1rBg5YSi00c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline">Unsplash</a>
-  '
+title: "Game Modes"
+description: 'description'
 icon: "1"
-heroImage: "/src/assets/adriana.jpg"
+heroImage: "/src/assets/background2.jpg"
 ---
 
 This example is from https://markdown-it.github.io/

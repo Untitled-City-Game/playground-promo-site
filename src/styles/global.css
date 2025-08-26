@@ -86,3 +86,15 @@ body {
     font-family: 'Alexandria', sans-serif;
     background-color: #f2f2f2;
 }
+
+
+
+.metro-letter{
+    font-size: 0.8em;
+    overflow:visible;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: rgb(255, 255, 255);
+background: #ff6f00;
+background: radial-gradient(circle,rgba(255, 111, 0, 1) 65%, rgba(0, 0, 0, 0) 65%);
+}
