@@ -9,6 +9,25 @@ media:
     output: src/icons
     
 content:
+  - name: site_page
+    label: Page
+    path: src/content/site_page
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: heroImage
+        label: Image
+        type: text
+      - name: body
+        type: rich-text
+        required: true
+
   - name: blog
     label: Blog
     path: src/content/blog
@@ -29,5 +48,25 @@ content:
         type: text
       - name: body
         type: rich-text
+        required: true
+  - name: hero
+    label: Homepage
+    path: src/content/home.md
+    type: file
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: description
+        type: text
+      - name: cta
+        label: Call to Action
+        type: text
+        required: true
+      - name: cta_link
+        label: Call to Action Link
+        type: text
         required: true
     
