@@ -10,7 +10,7 @@ media:
     
 content:
   - name: site_page
-    label: Page
+    label: Pages
     path: src/content/site_page
     type: collection
     fields:
