@@ -1,0 +1,33 @@
+media:
+  - name: images
+    label: images
+    input: src/assets
+    output: src/assets
+  - name: icons
+    label: icons
+    input: src/icons
+    output: src/icons
+    
+content:
+  - name: blog
+    label: Blog
+    path: src/content/blog
+    type: collection
+    fields: 
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: pubDate
+        label: Date
+        type: date
+      - name: heroImage
+        label: Image
+        type: text
+      - name: body
+        type: rich-text
+        required: true
+    
