@@ -3,20 +3,22 @@ import Link from "./HeaderLink.astro";
 import "../styles/hamburgers.css";
 ---
 
-<header>
+<header class="bg-yellow-100 border-solid border-b-3 border-yellow-500">
   <nav
-    class="flex container mx-auto md:p-10 px-4 py-6 items-center justify-between"
+    class="flex container mx-auto md:p-10 px-4 py-6 items-center justify-between border-solid border-10 border-black bg-yellow-100"
   >
     <a class="flex items-center gap-2" href="/">
-      <p class="font-kablamo text-ppink text-4xl md:text-5xl">S</p>
+      <p class="font-kablamo text-ppink text-4xl md:text-5xl">P</p>
       <p class="pt-2 md:text-lg font-semibold flex">
-        <span class="hidden md:block">Joaquín</span> Sorolla
+        Playground City
       </p>
     </a>
     <ul class="items-center md:gap-8 text-nowrap hidden md:flex">
       <li><Link href="/" text="Home" style="primary" /></li>
-      <li><Link href="/about" text="What I do" style="secondary" /></li>
-      <li><Link href="/blog" text="My work" style="tertiary" /></li>
+      <li><Link href="/about" text="How it works" style="secondary" /></li>
+      <li><Link href="/games" text="Games" style="tertiary" /></li>
+      <li><Link href="/blog" text="Dev updates" style="tertiary" /></li>
+      <li><Link href="/playtest" text="Playtest Now" style="tertiary" /></li>
     </ul>
     <div class="md:hidden z-40">
       <button class="hamburger hamburger--elastic" type="button">
