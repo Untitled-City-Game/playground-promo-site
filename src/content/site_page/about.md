@@ -1,5 +1,5 @@
 ---
-title: "How it works"
-icon: "1"
-heroImage: "/src/assets/background2.jpg"
+title: How it works
+heroImage: /src/assets/background2.jpg
 ---
+How the game works!
