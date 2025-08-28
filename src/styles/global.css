@@ -2,6 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+	--c1: #f0f8ff;
+	--c2: #303030;
+}
 
 @font-face {
     font-family: 'Alexandria';
@@ -97,4 +101,30 @@ body {
     color: rgb(255, 255, 255);
 background: #ff6f00;
 background: radial-gradient(circle,rgba(255, 111, 0, 1) 65%, rgba(0, 0, 0, 0) 65%);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+nav {
+    height: 100px;
+}
+
+blockquote {
+  background: white;
+  padding: 20px 30px 20px 30px;
+  margin: 50px auto;
+  width: 50%;
+  max-width: 500px;
+    border: solid 2px;
+  box-shadow: 15px 15px 0 0 blue;
+
+}
+
+p > a {
+    color: rgb(162, 3, 3);
+    text-decoration: underline;
 }

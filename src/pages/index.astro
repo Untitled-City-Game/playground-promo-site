@@ -5,6 +5,10 @@ import Footer from "@/components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Hero from "@/components/Hero.astro";
 import WhatIDo from "@/components/WhatIDo.astro";
+import * as home_md from "../content/home.md";
+import { Content } from "../content/home.md"
+import { render } from "astro:content";
+
 ---
 
 <!doctype html>
@@ -16,6 +20,9 @@ import WhatIDo from "@/components/WhatIDo.astro";
     <Header />
     <main class="container mx-auto md:px-10">
       <Hero />
+      <section class="py-20 px-4 md:px-0 gap-10 md:gap-0">
+        <Content />
+      </section>
       <WhatIDo />
     </main>
     <Footer />
