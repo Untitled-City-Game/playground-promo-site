@@ -1,5 +1,5 @@
 ---
-title: "Become a Playtester"
+title: "Playtest"
 description: 'description'
 icon: "1"
 heroImage: "/src/assets/background3.png"
