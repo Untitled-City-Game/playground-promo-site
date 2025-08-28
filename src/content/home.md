@@ -10,7 +10,7 @@ Playground City takes you and your friends all over your town.
 
 > I never had a reason to visit these areas before, and now when I visit I'll remember this game!
 > 
-> \- Mark, playtester
+> \- _Mark, playtester_
 
 ## Outsmart and outrun
 
