@@ -69,4 +69,8 @@ content:
         label: Call to Action Link
         type: text
         required: true
+      - name: body
+        label: body
+        type: rich-text
+
     
