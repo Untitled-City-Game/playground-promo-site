@@ -72,5 +72,16 @@ content:
       - name: body
         label: body
         type: rich-text
-
+  - name: footer_copy
+    label: Footer
+    path: src/content/footer_copy.md
+    type: file
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: body
+        label: body
+        type: rich-text
     
