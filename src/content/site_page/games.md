@@ -6,7 +6,7 @@ heroImage: /src/assets/background2.jpg
 
 **_Status:_** _Playtesting_
 
-**_Players:_** _4 - 8_
+**_Players:_** _4 - 8, in 2 teams_
 
 Claim neighborhoods with challenges. Secure a line of four neighborhoods to win!
 
@@ -20,7 +20,7 @@ Some extra hard challenges can steal opponent's regions, or lock existing region
 
 **_Status:_** _In development_
 
-**_Players:_** _4-12_
+**_Players:_** _4-12, in 2 or 3 teams_
 
 The greatest game on Nokia now comes to Playground City!
 
@@ -36,7 +36,7 @@ This is a frantic, fast-paced game of chicken where both teams are competing for
 
 **_Status:_** _Planned_
 
-**_Players:_** _8 - 20_
+**_Players:_** _8 - 20, in 4 to 10 teams_
 
 Race around the city and avoid being caught!
 
