@@ -20,8 +20,11 @@ First, we looked at the layout of the underground city. We walked through the tu
 We made a few realisations from this:
 
 *   The two metro lines (orange and green) can be used to “hop” between areas, potentially allowing chasers to cut off runners, or runners to escape.
+    
 *   There are a bunch of choke-point tunnels. We could "block" these with challenges or conditions, to slow people down.
+    
 *   The underground city has lots of malls, abandoned areas, historical curiosities and art installations. The game should encourage exploring those, through challenges or bonuses.
+    
 
 ## **Making Tag into a real game**
 
@@ -36,18 +39,26 @@ Here's what we came up with for tag.
 Tag is fun when…
 
 1.  You surprise someone by appearing near to them.
+    
 2.  You are almost caught, but then you escape.
+    
 3.  You get away or catch someone by thinking fast and using your environment.
+    
 4.  There's a constant change of who is chasing and who is running.
+    
 
 ## **Design Pillars**
 
 Now we have our north star of fun, we set some basic practical rules to guide the design:
 
 1.  The game would take place entirely in the Underground City.
+    
 2.  Players would be in teams of at least 2 – this makes it more fun and easier to manage the information.
+    
 3.  All teams will have their location shared on Google Maps. This is the only way it’s possible to find anyone in the labyrinth.
+    
 4.  Two teams will be “it” at the same time, to create more strategic complexity.
+    
 
 This last condition came as a result of some early playtesting - with only one chasing team, you can effectively remove yourself from the gameplay area by going to the other side of the city. Also, only one chasing team creates very linear and predictable movement.
 
@@ -64,8 +75,11 @@ _What does it mean to “win” at tag?_
 We considered the following ideas:
 
 *   You win if you’re not “it” at the end. This is the most intuitive and direct link to the playground game.
+    
 *   You win if you complete some other kind of victory condition, like doing challenges, which you can only do while not “it”.
+    
 *   You win if you spend the least amount of time “it”.
+    
 
 The first idea is simple, but feels arbitrary, and having one team lose while every other team wins does not feel fun.
 
@@ -86,7 +100,9 @@ Second, when you tag another team, you **steal** one quarter of their points.
 Here's what this means:
 
 *   Every team can win or lose, even in the final moments of the game.
+    
 *   It builds in an attack-the-winner incentive. If one team hasn't been tagged for a while, they're a juicy target for the chasers - this encourages our "everyone switches roles" condition.
+    
 
 ### **How to stop everyone from being boring**
 
@@ -117,8 +133,11 @@ We already knew we wanted to give the chasers some power-ups to make catching te
 We ran multiple **simulations** of the game using Street View and maps, pretending to be multiple teams. Some things we finalised in these simulations included:
 
 *   Which power-ups to have - like turning off their tracker or taking a metro one stop.
+    
 *   The game should start with “locked doors” confining the game to a specific area, then, as teams earn power-ups, they can open these doors and widen the game area.
+    
 *   Chaser abilities should get stronger the longer they are "it". This avoids anyone being "it" for a really long time.
+    
 
 ## **Final Game Playtest**
 
@@ -135,17 +154,32 @@ Overall: Huge success! The game was fast-paced and dynamic with lots of crazy tw
 Some lessons for next time:
 
 *   Teams with 3 people had a much easier time. The information management became overwhelming for teams of 2.
+    
 *   The doors were ultimately less impactful than expected. We should make it much easier to access the doors and harder to remove them.
+    
 *   The chaser power-ups worked very well. One team was “it” for an entire hour, which meant they got the “death zone” power-up that let them tag any team in the same zone, which helped get them back in the game.
+    
 
 ## **Playtest Album**
 
-**Spot Yourself on a Map challenge**
+**Spot Yourself on a Map**
+
+Find a physical map which includes your current location.
+
+![](src/assets/Screenshot%202025-08-09%20124644.png)
 
 **Liminal Space challenge**
 
-**Touch a Real Plant challenge**
+Challenge: "Find a public space with chairs and tables but no people"
+
+![](src/assets/Screenshot%202025-08-09%20124529.png)
 
 **Become Complementary challenge**
 
+Challenge: Dress in majority complementary colors
+
+![](src/assets/Screenshot%202025-08-09%20124047.png)
+
 **Getting tagged**
+
+![](src/assets/Screenshot%202025-08-09%20124139.png)
