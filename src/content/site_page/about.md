@@ -12,6 +12,10 @@ Every game mode comes with unique challenged tailored to your city.
 
 ![](src/assets/Screenshot_20250902_184809_Chrome.jpg)
 
+![](src/assets/Screenshot_20250902_184831_Chrome.jpg)
+
 ## **Strategize to win**
 
 The entire city map becomes your board. You can see zones and objectives update in real time, and follow the other team's location to predict their next move.
+
+![](src/assets/screenshot1.png)
