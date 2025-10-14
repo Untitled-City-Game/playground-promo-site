@@ -145,6 +145,8 @@ Here is the [final rules document](https://docs.google.com/document/d/1Wl0qe2z_t
 
 We created and laminated copies of the game board where players can track which doors are barred and which zones they have visited.
 
+![](src/assets/Tag%20map.jpg)
+
 We also designed and printed physical cards for the challenges and power-ups
 
 We ran the game on a Saturday afternoon over 4 hours, with 18 people split between 7 teams.
