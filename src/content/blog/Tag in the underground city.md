@@ -147,13 +147,17 @@ We created and laminated copies of the game board where players can track which 
 
 ![](src/assets/Tag%20map.jpg)
 
-We also designed and printed physical cards for the challenges and power-ups
+We also designed and printed physical cards for the challenges and power-ups.
+
+![](src/assets/cardssmall.jpg)
 
 We ran the game on a Saturday afternoon over 4 hours, with 18 people split between 7 teams.
 
 Overall: Huge success! The game was fast-paced and dynamic with lots of crazy twists and turns.
 
-Some lessons for next time:
+## Lessons Learned
+
+Of course, the game was not perfect! Some lessons for next time:
 
 *   Teams with 3 people had a much easier time. The information management became overwhelming for teams of 2.
     
