@@ -4,7 +4,7 @@ heroImage: /src/assets/background2.jpg
 ---
 ## Connect Four
 
-**_Status:_** _playtesting_
+**_Status:_** _Playtesting_
 
 **_Players:_** _4 - 8_
 
