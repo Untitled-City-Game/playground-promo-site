@@ -10,8 +10,6 @@ Playground City is played across a metro network. You'll use trains, buses or bi
 
 Every game mode comes with unique challenged tailored to your city.
 
-![](src/assets/Screenshot_20250902_184809_Chrome.jpg)
-
 ![](src/assets/Screenshot_20250902_184831_Chrome.jpg)
 
 ## **Strategize to win**
