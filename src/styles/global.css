@@ -126,6 +126,11 @@ blockquote {
 
 }
 
+.prose p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 p > a {
     color: rgb(162, 3, 3);
     text-decoration: underline;
