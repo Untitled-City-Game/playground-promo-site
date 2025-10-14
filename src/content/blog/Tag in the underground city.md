@@ -190,4 +190,6 @@ Challenge: Dress in majority complementary colors
 
 **Getting tagged**
 
-![](src/assets/Screenshot%202025-08-09%20124139.png)
+Tim and Justin get tagged! They went on to win the game, though.
+
+![](src/assets/Screenshot%202025-08-09%20124139(1).png)
