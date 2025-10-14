@@ -1,7 +1,9 @@
 ---
-title: Tag in the underground city
+title: Tag in the Underground City
+icon: '3'
 description: We played Tag in Montreal's Underground City
-heroImage: /src/assets/background1.jpg
+pubDate: 'Jul 08 2025'
+heroImage: "/src/assets/background1.jpg"
 ---
 # **We played Tag in Montreal’s Underground City**
 
