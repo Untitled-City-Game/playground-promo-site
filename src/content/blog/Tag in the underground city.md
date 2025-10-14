@@ -1,5 +1,5 @@
 ---
-title: Designing Tag in Montreal's Underground City
+title: Tag in the underground city
 description: We played Tag in Montreal's Underground City
 heroImage: /src/assets/background1.jpg
 ---
