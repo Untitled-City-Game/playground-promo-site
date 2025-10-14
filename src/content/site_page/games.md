@@ -2,7 +2,7 @@
 title: Game Modes
 heroImage: /src/assets/background2.jpg
 ---
-## Connect Four
+## Connect Four ⭕⭕❌❌
 
 **_Status:_** _Playtesting_
 
@@ -16,7 +16,7 @@ This mode is a strategic dance between two teams. You'll have a hand of challeng
 
 Some extra hard challenges can steal opponent's regions, or lock existing regions so they can't be stolen.
 
-## Snake
+## Snake 🐍
 
 **_Status:_** _In development_
 
@@ -32,7 +32,7 @@ This is a frantic, fast-paced game of chicken where both teams are competing for
 
 ![](src/assets/Screenshot_20251014_111031.png)
 
-## Tag
+## Tag 🏃🏃‍♀️
 
 **_Status:_** _Planned_
 
@@ -50,7 +50,7 @@ However, runners must pay for transit using **tickets** which are earned by comp
 
 Points are earned based on how long a team are runners - but every time you get caught, a third of your points are given to the chasers. If you're winning, you're the juiciest target on the map!
 
-## Battleship
+## Battleship 📡
 
 **_Status:_** _Planned_
 
