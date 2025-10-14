@@ -43,6 +43,9 @@ content:
       - name: pubDate
         label: Date
         type: date
+      - name: icon
+        label: Icon
+        type: text
       - name: heroImage
         label: Image
         type: text
