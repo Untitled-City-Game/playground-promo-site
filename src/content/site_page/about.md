@@ -4,13 +4,13 @@ heroImage: /src/assets/background2.jpg
 ---
 ## **Dash around town**
 
-Playground City is played across a metro network. You'll use trains, buses or bikes to reach your goals and outmaneuver the other team.
+Playground City is played in person, using public transit. You'll catch trains, buses or bikes to reach your goals and outmaneuver the other team.
 
 ![](src/assets/background3.png)
 
 ## **Complete fun challenges**
 
-Every game mode comes with unique challenged tailored to your city.
+Every game mode comes with unique challenged tailored to your city, as well as generic challenges which work anywhere.
 
 ![](src/assets/Screenshot_20250902_184831_Chrome.jpg)
 
