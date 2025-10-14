@@ -126,9 +126,17 @@ blockquote {
 
 }
 
-.prose p {
+.prose {
+    gap: 0rem;
+}
+
+.prose * {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1em;
+}
+
+.prose h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em !important;
 }
 
 p > a {
