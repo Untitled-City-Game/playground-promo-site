@@ -33,3 +33,17 @@ Now, it didn't _have_ to be so quick. We had a nail-biter ending, where Red team
 The thing is, nobody was sad about the early finish! It was a thrilling game end, and everyone felt the victory was earned by the strategic decisions of both teams, even if it could easily have gone the other way. So, you can have a satisfying game of Connect 4 in under 2 hours.
 
 This really cemented the decision to have Connect 4 be the first/default game mode. I'm very confident other modes will take longer to play, some potentially all day.
+
+## Testimonials
+
+> It made me think strategically of transportation times ... I spent all day doing fun little tasks in the snow and it was fun.
+> 
+> *   Leo
+>     
+
+> I honestly expected that to be way more messy but for a first proper play test it went really smoothly!
+> 
+> *   Tristan
+>     
+
+Full disclosure, this first playtest was with close friends and people who've contributed to the game, so they're not unbiased. However they also love to mock me and my choices, so it probably balances out.
