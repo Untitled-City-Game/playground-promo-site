@@ -2,6 +2,10 @@
 const today = new Date();
 import { Icon } from "astro-icon/components";
 import { Content } from "../content/footer_copy.md";
+import { Image } from "astro:assets";
+const images = import.meta.glob<{ default: ImageMetadata }>(
+	"/src/assets/*.{jpeg,jpg,png,gif}"
+);
 ---
 
 <footer
@@ -36,7 +40,11 @@ import { Content } from "../content/footer_copy.md";
 	</div>
 	<div>
 		<a href="/">
-			<img src="src/assets/logo.png" class="max-w-md w-full" />
+			<Image
+				src={images["/src/assets/logo.png"]()}
+				class="object-contain max-w-md w-fill"
+				alt="Playground City Logo"
+			/>
 		</a>
 	</div>
 </footer>
