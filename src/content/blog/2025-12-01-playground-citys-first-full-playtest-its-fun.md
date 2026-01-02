@@ -1,7 +1,7 @@
 ---
 title: Playground City's First Full Playtest - It's Fun!
 description: Good news - the game is fun.
-pubDate: 2025-12-01
+pubDate: 2026-01-02
 icon: "1"
 ---
 Recently three very dedicated playtesters braved the Montreal snow with me for the first full gameplay test of Playground City. Turns out, the game is fun!
