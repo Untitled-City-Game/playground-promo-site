@@ -1,14 +1,19 @@
 ---
 import Link from "./HeaderLink.astro";
 import "../styles/hamburgers.css";
+import { Image } from "astro:assets";
+const images = import.meta.glob<{ default: ImageMetadata }>(
+	"/src/assets/*.{jpeg,jpg,png,gif}"
+);
 ---
 
 <header class="">
-	<nav class="flex container max-w-full items-center justify-between">
-		<a class="flex items-center gap-2 min-w-fit h-full pr-4 pl-4" href="/">
-			<img
-				src="/src/assets/logo.png"
-				class="object-contain h-full"
+	<nav
+		class="flex container max-w-full w-full min-w-screen items-center justify-between">
+		<a class="flex items-center gap-2 w-fit h-full pr-4 pl-4" href="/">
+			<Image
+				src={images["/src/assets/logo.png"]()}
+				class="object-contain h-full size-min"
 				alt="Playground City Logo"
 			/>
 		</a>
