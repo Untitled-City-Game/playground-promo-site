@@ -30,6 +30,6 @@ I scheduled 3 hours for this test, and I worried the game might take longer. Thi
 
 Now, it didn't _have_ to be so quick. We had a nail-biter ending, where Red team rushed across town to block Blue from finishing a line. The Blue team barely got there first, but if Red had succeeded, the game could easily have gone for another hour.
 
-However, nobody was sad about the early finish! It was a thrilling game end, and everyone felt the victory was earned by the strategic decisions of both teams, even if it could easily have gone the other way.
+The thing is, nobody was sad about the early finish! It was a thrilling game end, and everyone felt the victory was earned by the strategic decisions of both teams, even if it could easily have gone the other way. So, you can have a satisfying game of Connect 4 in under 2 hours.
 
 This really cemented the decision to have Connect 4 be the first/default game mode. I'm very confident other modes will take longer to play, some potentially all day.
