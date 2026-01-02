@@ -28,7 +28,7 @@ I'm going to update the challenges so there are more with an unavoidable time co
 
 I scheduled 3 hours for this test, and I worried the game might take longer. This game, though, took only 1 hour and 45 minutes. That's quite fast even for a regular board game, let alone one where you travel across the entire city!
 
-Now, it didn't _have_ to be so fast. We had a nail-biter moment around 90 minutes in, where red team rushed across town to block blue from finishing a line. The blue team barely got there first, but if red team had succeeded, the game could easily have gone for another 90 minutes.
+Now, it didn't _have_ to be so quick. We had a nail-biter ending, where Red team rushed across town to block Blue from finishing a line. The Blue team barely got there first, but if Red had succeeded, the game could easily have gone for another hour.
 
 However, nobody was sad about the early finish! It was a thrilling game end, and everyone felt the victory was earned by the strategic decisions of both teams, even if it could easily have gone the other way.
 
