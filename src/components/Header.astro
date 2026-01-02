@@ -3,55 +3,86 @@ import Link from "./HeaderLink.astro";
 import "../styles/hamburgers.css";
 ---
 
-<header class="bg-yellow-100 border-solid border-b-3 border-yellow-500">
-  <nav
-    class="flex container mx-auto items-center justify-between border-solid border-10 border-black bg-yellow-100"
-  >
-    <a class="flex items-center gap-2 h-full" href="/">
-      <p class="metro-letter text-2xl md:text-3xl">P</p>
-      <p class="pt-2 md:text-lg font-semibold flex">
-        Playground City
-      </p>
-    </a>
-    <ul class="items-center md:gap-8 text-nowrap hidden md:flex">
-      <li><Link href="/" text="Home" style="primary" /></li>
-      <li><Link href="/about" text="How it works" style="secondary" /></li>
-      <li><Link href="/games" text="Game Modes" style="tertiary" /></li>
-      <li><Link href="/blog" text="Dev updates" style="tertiary" /></li>
-      <li><Link href="/playtest" text="Stay updated" style="tertiary" /></li>
-    </ul>
-    <div class="md:hidden z-40">
-      <button class="hamburger hamburger--elastic" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
+<header class="">
+	<nav class="flex container max-w-full items-center justify-between">
+		<a class="flex items-center gap-2 min-w-fit h-full pr-4 pl-4" href="/">
+			<img
+				src="/src/assets/logo.png"
+				class="object-contain h-full"
+				alt="Playground City Logo"
+			/>
+		</a>
+		<ul
+			class="items-center md:gap-0 text-nowrap hidden md:flex h-3/4 mr-4 bg-yellow-100 border-solid border-3 border-yellow-500 rounded-full">
+			<li><Link href="/" text="Home" style="primary" /></li>
+			<li>
+				<Link href="/about" text="How it works" style="secondary" />
+			</li>
+			<li><Link href="/games" text="Game Modes" style="tertiary" /></li>
+			<li><Link href="/blog" text="Dev updates" style="tertiary" /></li>
+			<li>
+				<Link href="/playtest" text="Stay updated" style="tertiary" />
+			</li>
+		</ul>
+		<div class="md:hidden z-40">
+			<button class="hamburger hamburger--elastic" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
 
-      <div id="navigation" class="fixed top-0 left-0 w-full h-full bg-white transform -translate-y-full transition-transform duration-300 ease-in-out">
-        <ul class="flex flex-col items-center justify-center h-full gap-8 text-nowrap">
-        <li><Link href="/" text="Home" style="primary" /></li>
-        <li><Link href="/about" text="How it works" style="secondary" /></li>
-        <li><Link href="/games" text="Game Modes" style="tertiary" /></li>
-        <li><Link href="/blog" text="Dev updates" style="tertiary" /></li>
-        <li><Link href="/playtest" text="Stay updated" style="tertiary" /></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+			<div
+				id="navigation"
+				class="fixed top-0 left-0 w-full h-full bg-white transform -translate-y-full transition-transform duration-300 ease-in-out">
+				<ul
+					class="flex flex-col items-center justify-center h-full gap-8 text-nowrap">
+					<li><Link href="/" text="Home" style="primary" /></li>
+					<li>
+						<Link
+							href="/about"
+							text="How it works"
+							style="secondary"
+						/>
+					</li>
+					<li>
+						<Link
+							href="/games"
+							text="Game Modes"
+							style="tertiary"
+						/>
+					</li>
+					<li>
+						<Link
+							href="/blog"
+							text="Dev updates"
+							style="tertiary"
+						/>
+					</li>
+					<li>
+						<Link
+							href="/playtest"
+							text="Stay updated"
+							style="tertiary"
+						/>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </header>
 <script is:inline>
-  function init(){
-    const hamburger = document.querySelector(".hamburger");
-    const menu = document.getElementById("navigation");
+	function init() {
+		const hamburger = document.querySelector(".hamburger");
+		const menu = document.getElementById("navigation");
 
-    if (hamburger && menu) {
-      hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("is-active");
-        menu.classList.toggle("-translate-y-full");
-        menu.classList.toggle("translate-y-0");
-      });
-    }
-  }
-  init();
-  document.addEventListener("astro:after-swap", init);
+		if (hamburger && menu) {
+			hamburger.addEventListener("click", () => {
+				hamburger.classList.toggle("is-active");
+				menu.classList.toggle("-translate-y-full");
+				menu.classList.toggle("translate-y-0");
+			});
+		}
+	}
+	init();
+	document.addEventListener("astro:after-swap", init);
 </script>

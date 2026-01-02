@@ -1,42 +1,42 @@
 ---
 const today = new Date();
 import { Icon } from "astro-icon/components";
-import {Content } from "../content/footer_copy.md";
+import { Content } from "../content/footer_copy.md";
 ---
 
 <footer
-  class="flex flex-col items-center container mx-auto p-10 text-center gap-10 pb-40"
->
-   <Content />
- <p> &copy; {today.getFullYear()} Michael Turvey. All rights reserved.</p>
-  <div class="flex items-center gap-6 text-5xl">
-    <a
-      href="#"
-      target="_blank"
-      class="py-1 pl-1 pr-1 border-black rounded-full border-1 bg-ppink shadow-card hover:shadow-hover transition"
-    >
-      <Icon name="discord" />
-    </a>
-    <a
-      href="#"
-      target="_blank"
-      class="border-1 p-1 border-black rounded-full bg-red-400 shadow-card hover:shadow-hover transition"
-    >
-      <Icon name="youtube" />
-    </a>
-    <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSdhGU8CJW1lhq6K8SrxCezvmSDdzIZUXaCPrNk34bIWliY2vQ/viewform?usp=header"
-      target="_blank"
-      class="border-1 p-1 border-black rounded-full bg-pgreen shadow-card hover:shadow-hover transition"
-    >
-      <Icon name="email2" />
-    </a>
-    <a
-      href="#"
-      target="_blank"
-      class="border-1 p-1 border-black rounded-full bg-orange-300 shadow-card hover:shadow-hover transition"
-    >
-      <Icon name="reddit" />
-    </a>
-  </div>
+	class="flex flex-col items-center container mx-auto p-10 text-center gap-10 pb-40">
+	<Content />
+	<p>&copy; {today.getFullYear()} Michael Turvey. All rights reserved.</p>
+	<div class="flex items-center gap-6 text-5xl">
+		<a
+			href="#"
+			target="_blank"
+			class="py-1 pl-1 pr-1 border-black rounded-full border-1 bg-ppink shadow-card hover:shadow-hover transition">
+			<Icon name="discord" />
+		</a>
+		<a
+			href="#"
+			target="_blank"
+			class="border-1 p-1 border-black rounded-full bg-red-400 shadow-card hover:shadow-hover transition">
+			<Icon name="youtube" />
+		</a>
+		<a
+			href="https://docs.google.com/forms/d/e/1FAIpQLSdhGU8CJW1lhq6K8SrxCezvmSDdzIZUXaCPrNk34bIWliY2vQ/viewform?usp=header"
+			target="_blank"
+			class="border-1 p-1 border-black rounded-full bg-pgreen shadow-card hover:shadow-hover transition">
+			<Icon name="email2" />
+		</a>
+		<a
+			href="#"
+			target="_blank"
+			class="border-1 p-1 border-black rounded-full bg-orange-300 shadow-card hover:shadow-hover transition">
+			<Icon name="reddit" />
+		</a>
+	</div>
+	<div>
+		<a href="/">
+			<img src="src/assets/logo.png" class="max-w-md" />
+		</a>
+	</div>
 </footer>
