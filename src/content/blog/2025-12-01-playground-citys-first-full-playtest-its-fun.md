@@ -3,6 +3,7 @@ title: Playground City's First Full Playtest - It's Fun!
 description: Good news - the game is fun.
 pubDate: 2026-01-02
 icon: "1"
+heroImage: /src/assets/background1.jpg
 ---
 Recently three very dedicated playtesters braved the Montreal snow with me for the first full gameplay test of Playground City. Turns out, the game is fun!
 
@@ -45,11 +46,9 @@ This really cemented the decision to have Connect 4 be the first/default game mo
 > It made me think strategically of transportation times ... I spent all day doing fun little tasks in the snow and it was fun.
 > 
 > *   Leo
->     
 
 > I honestly expected that to be way more messy but for a first proper play test it went really smoothly!
 > 
 > *   Tristan
->     
 
 Full disclosure, this first playtest was with close friends and people who've contributed to the game, so they're not unbiased. However they also love to mock me and my choices, so it probably balances out.
