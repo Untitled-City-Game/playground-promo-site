@@ -15,6 +15,8 @@ Tag is the ultimate playground game. When we started designing city-wide party g
 
 Montreal’s Underground City is a sprawling maze of tunnels, trains and shopping malls. Built to enable downtown exploration in the freezing Canadian winter, this warren of tunnels was connected by corporations and governments with no overall plan. The result is a confusing, strangely liminal space full of dead ends, loops, and surprising connections. There's a United Nations building, an ice-skating rink, and a piece of the Berlin wall. It's also where that one scene from [John Wick 2](https://youtu.be/vHMUBf2PB4w?si=JYVHUgdqAbKG2U6Y&t=35) was filmed.
 
+![](src/assets/city.png)
+
 We knew we wanted to use this unique environment for a game, thought this was the perfect setting for tag - it's confined enough that it's hard for people to just run away, but complex enough that you can avoid people and create interesting obstacles.
 
 First, we looked at the layout of the underground city. We walked through the tunnels to learn how they work, and inspire gameplay ideas. Here's what we found.
